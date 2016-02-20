@@ -1,0 +1,1 @@
+1. Ksplice: Automatic Rebootless Kernel Updates. Jeff Arnold and M. Frans Kaashoek. EuroSys 2009. 
