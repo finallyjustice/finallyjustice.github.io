@@ -4,4 +4,4 @@
 4. COLO: COarse-grained LOck-stepping Virtual Machines forNon-stop Service. YaoZu Dong, Wei Ye, YunHong Jiang, Ian Pratt, ShiQing Ma, Jian Li, and HaiBing Guan. SoCC 2013.
 5. Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds. Thomas Ristenpart, Eran Tromer, Hovav Shacham, and Stefan Savage. CCS 2009.
 6. Cross-VM side channels and their use to extract private keys. Yinqian Zhang, Ari Juels, Michael K. Reiter, and Thomas Ristenpart. CCS 2012.
-7. Last-Level Cache Side-Channel Attacks are Practical. Fangfei Liu, Yuval Yarom, Qian Ge, 	Gernot Heiser, Ruby B. Lee. IEEE S&P 2005.
+7. Last-Level Cache Side-Channel Attacks are Practical. Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby B. Lee. IEEE S&P 2005.
