@@ -1,0 +1,38 @@
+-------------------------------------------------
+
+# Xen:
+[*] xsplice*
+grant_table*
+
+-------------------------------------------------
+
+# QEMU:
+hw/xen/*
+hw/display/xenfb.c
+hw/net/xen_nic.c
+hw/block/xen_disk.c
+
+hw/virtio/*
+hw/net/virtio-net.c
+hw/block/virtio-blk.c
+
+-------------------------------------------------
+
+# Linux:
+drivers/xen/*
+arch/x86/xen/*
+arch/x86/pci/xen.c
+[*] drivers/net/xen-net*
+[*] drivers/block/xen-blk*
+drivers/watchdog/xen_wdt.c
+drivers/input/misc/xen-kbdfront.c
+drivers/pci/xen-pcifront.c
+drivers/video/fbdev/xen-fbfront.c
+drivers/scsi/xen-scsifront.c
+drivers/char/tpm/xen-tpmfront.c
+
+drivers/virtio/*
+drivers/net/virtio_net.c
+drivers/block/virtio_blk.c
+
+-------------------------------------------------
