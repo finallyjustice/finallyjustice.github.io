@@ -3,6 +3,7 @@
 # Xen:
 [*] xsplice*
 grant_table*
+xen/common/event*
 
 -------------------------------------------------
 
