@@ -2,10 +2,12 @@
 2. Swap and Play: Live Updating Hypervisors and Its Application to Xen. Franz Ferdinand Brasser, Mihai Bucicoiu, and Ahmad-Reza Sadeghi. CCSW 2014.
 3. Live Updating Operating Systems Using Virtualization. Haibo Chen, Rong Chen, Fengzhe Zhang, Binyu Zang, and Pen-Chung Yew. VEE 2006.
 4. COLO: COarse-grained LOck-stepping Virtual Machines forNon-stop Service. YaoZu Dong, Wei Ye, YunHong Jiang, Ian Pratt, ShiQing Ma, Jian Li, and HaiBing Guan. SoCC 2013.
-5. Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds. Thomas Ristenpart, Eran Tromer, Hovav Shacham, and Stefan Savage. CCS 2009.
-6. Cross-VM side channels and their use to extract private keys. Yinqian Zhang, Ari Juels, Michael K. Reiter, and Thomas Ristenpart. CCS 2012.
-7. Last-Level Cache Side-Channel Attacks are Practical. Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby B. Lee. IEEE S&P 2005.
-8. Achieving 10 Gb/s using Safe and Transparent Network Interface Virtualization. Kaushik Kumar Ram, Jose Renato Santos, Yoshio Turner, Alan L. Cox, and Scott Rixner. VEE 2009.
-9. Hyper-Switch: A Scalable Software Virtual Switching Architecture. Kaushik Kumar Ram, Alan L. Cox, Mehul Chadha, and Scott Rixner. USENIX ATC 2013.
-10. A Comprehensive Implementation and Evaluation of Direct Interrupt Delivery. Cheng-Chun Tu, Michael Ferdman, Chao-tung Lee, and Tzi-cker Chiueh. VEE 2015.
-11. seL4: Formal Verification of an OS Kernel. Gerwin Klein, Kevin Elphinstone, Gernot Heiser, June Andronick, David Cock, Philip Derrin, Dhammika Elkaduwe, Kai Engelhardt, Rafal Kolanski, Michael Norrish, Thomas Sewell, Harvey Tuch, and Simon Winwood. SOSP 2009
+5. Remus: high availability via asynchronous virtual machine replication. Brendan Cully, Geoffrey Lefebvre, Dutch Meyer, Mike Feeley, Norm Hutchinson, and Andrew Warfield. NSDI 2008.
+6. SecondSite: Disaster Tolerance as a Service. Shriram Rajagopalan, Brendan Cully, Ryan O'Connor, and Andrew Warfield. VEE 2012.
+7. Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds. Thomas Ristenpart, Eran Tromer, Hovav Shacham, and Stefan Savage. CCS 2009.
+8. Cross-VM side channels and their use to extract private keys. Yinqian Zhang, Ari Juels, Michael K. Reiter, and Thomas Ristenpart. CCS 2012.
+9. Last-Level Cache Side-Channel Attacks are Practical. Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby B. Lee. IEEE S&P 2005.
+10. Achieving 10 Gb/s using Safe and Transparent Network Interface Virtualization. Kaushik Kumar Ram, Jose Renato Santos, Yoshio Turner, Alan L. Cox, and Scott Rixner. VEE 2009.
+11. Hyper-Switch: A Scalable Software Virtual Switching Architecture. Kaushik Kumar Ram, Alan L. Cox, Mehul Chadha, and Scott Rixner. USENIX ATC 2013.
+12. A Comprehensive Implementation and Evaluation of Direct Interrupt Delivery. Cheng-Chun Tu, Michael Ferdman, Chao-tung Lee, and Tzi-cker Chiueh. VEE 2015.
+13. seL4: Formal Verification of an OS Kernel. Gerwin Klein, Kevin Elphinstone, Gernot Heiser, June Andronick, David Cock, Philip Derrin, Dhammika Elkaduwe, Kai Engelhardt, Rafal Kolanski, Michael Norrish, Thomas Sewell, Harvey Tuch, and Simon Winwood. SOSP 2009
