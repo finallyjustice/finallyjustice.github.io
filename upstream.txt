@@ -1,39 +1,45 @@
 -------------------------------------------------
 
-# Xen:
-[*] xsplice*
-grant_table*
-xen/common/event*
+xen grant table:
 
--------------------------------------------------
+- linux/drivers/xen/grant-table.c
+- linux/drivers/xen/gntalloc.c
+- linux/drivers/xen/gntdev.c
+- linux/arch/x86/xen/grant-table.c
+- xen/xen/common/grant_table.c
 
-# QEMU:
-hw/xen/*
-hw/display/xenfb.c
-hw/net/xen_nic.c
-hw/block/xen_disk.c
+xen event channel
 
-hw/virtio/*
-hw/net/virtio-net.c
-hw/block/virtio-blk.c
+- linux/drivers/xen/events/*
+- linux/drivers/xen/evtchn.c
+- xen/xen/common/event_2l.c
+- xen/xen/common/event_channel.c
+- xen/xen/common/event_fifo.c
 
--------------------------------------------------
+xenbus and xenstore:
 
-# Linux:
-drivers/xen/*
-arch/x86/xen/*
-arch/x86/pci/xen.c
-[*] drivers/net/xen-net*
-[*] drivers/block/xen-blk*
-drivers/watchdog/xen_wdt.c
-drivers/input/misc/xen-kbdfront.c
-drivers/pci/xen-pcifront.c
-drivers/video/fbdev/xen-fbfront.c
-drivers/scsi/xen-scsifront.c
-drivers/char/tpm/xen-tpmfront.c
+- linux/drivers/xen/xenbus/*
+- xen/tools/xenstore/*
 
-drivers/virtio/*
-drivers/net/virtio_net.c
-drivers/block/virtio_blk.c
+xen paravirtual drivers:
+
+- linux/drivers/net/xen-netfront.c
+- linux/drivers/net/xen-netback/*
+- linux/drivers/block/xen-blkfront.c
+- linux/drivers/block/xen-blkback/*
+
+xen memory and cpu hotplug:
+
+- linux/drivers/xen/balloon.c
+- linux/drivers/xen/xen-balloon.c
+- linux/drivers/xen/cpu_hotplug.c
+
+xen livepatch:
+
+- xen/xen/common/livepatch.c
+- xen/xen/common/livepatch_elf.c
+- xen/xen/arch/x86/livepatch.c
+- xen/tools/misc/xen-livepatch.c
+- livepatch-build-tools
 
 -------------------------------------------------
