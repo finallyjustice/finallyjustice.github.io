@@ -42,4 +42,9 @@ xen livepatch:
 - xen/tools/misc/xen-livepatch.c
 - livepatch-build-tools
 
+xen others:
+
+- linux/drivers/xen/manage.c
+- linux/drivers/xen/platform-pci.c
+
 -------------------------------------------------
