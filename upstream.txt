@@ -15,6 +15,7 @@ xen event channel
 - xen/xen/common/event_2l.c
 - xen/xen/common/event_channel.c
 - xen/xen/common/event_fifo.c
+- xen/include/xen/event.h
 
 xenbus and xenstore:
 
