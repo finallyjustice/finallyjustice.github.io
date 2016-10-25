@@ -49,5 +49,6 @@ xen others:
 - linux/drivers/xen/platform-pci.c
 - linux/arch/x86/xen/platform-pci-unplug.c
 - linux/arch/x86/xen/enlighten.c
+- linux/arch/x86/xen/smp.c
 
 -------------------------------------------------
